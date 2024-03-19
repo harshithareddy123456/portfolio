@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Portfolio website using HTML, CSS and JavaScript"
+    />
+    <meta name="keywords" content="HTML,CSS,JavaScript,Portfolio" />
+    <meta name="author" content="V Sai harshitha" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshitha Portfolio</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <!--Navigation Bar-->
+      <header id="navbar" class="navbar" >
+        <div class="logo" >
+          <a href="#">
+            V Sai harshitha
+          </a>
+        </div>
+        <nav class="navbar-menu">
+          <ul>
+            <li><a href="#intro">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="toggle-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="toggle-options">
+          <li><a href="#intro">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </header>
+      <!--Intro-->
+      <section id="intro" class="intro" >
+        <div class="profile-logo " >
+            <img src="./images/harshitha.jpg" alt="" width="300" height="300" />
+        </div>
+        <div class="profile-name " >
+          <p class="header-styling">Hello!</p>
+          <p class="header-styling">
+            I'm <span>Sai Harshitha</span>.
+          </p>
+          <p class="desc-styling">
+            A <span class="purple-highlight">Full Stack Developer!</span> 
+          </p>
+        </div>
+      </section>
+      <!--About Me-->
+      <section id="about" class="about-me">
+        <div class="section-header-styling "  role="heading" aria-label="heading">
+          <p>
+            Professional Experience at
+            <span class="purple-highlight">Accenture </span>
+          </p>
+        </div>
+        <blockquote class="about-desc "  >
+          <p>
+            "As a dedicated Software Development Senior Analyst at Accenture, I create seamless dynamic web applications, I am an
+            accomplished React Developer dedicated to delivering high-quality user experiences .I am specialized in cutting-edge
+            frontend technologies with robust DevOps practices and kubernetes orchestration for seamless deployments. I leverage
+            tools like Jenkins, Docker to automate processes and enhance collaboration between development and operations.
+            
+          </p>
+          <p>
+            I led a dynamic team to develop a Compliance as Code solution from scratch, using React for the frontend, implementing a
+            microservices architecture with GraphQL and Go for the backend, and connecting to a PostgreSQL database. We increased
+            the user retention rate by 25% and reduced the compliance issues by 75%. I also engineered a ChatGPT-inspired
+            application using Python and Azure OpenAl, with React and GraphQL frontend, and Go and PostgreSQL backend, achieving
+            optimal performance and scalability.
+          </p>
+          <p>
+            In my 3 years of professional journey, I've contributed to a variety of projects, from creation of a user-friendly
+            interface that serves as a central hub for navigating through various applications in our project leveraging HTML for
+            structure, CSS for styling, and JavaScript for dynamic functionality to creation of a robust Compliance as Code
+            leveraging the power of React to deliver a seamless user experience. This experience has equipped me with the skills to
+            transform design concepts into reality, create scalable and maintainable code, and collaborate effectively within
+            cross-functional teams."
+          </p>
+          <cite>- V Sai harshitha</cite>
+        </blockquote>
+      </section>
+      <!--Skills-->
+      <section id="skills" class="skills" >
+        <div class="section-header-styling " role="heading" aria-label="heading" >
+          <p class="purple-highlight">Skills</p>
+        </div>
+        <div id="skills-container"  >
+          <!-- Skill details will be dynamically added here -->
+        </div>
+      </section>
+      <!--Projects-->
+      <section id="projects" class="projects">
+        <div class="section-header-styling " role="heading" aria-label="heading" >
+          <p class="purple-highlight">Projects</p>
+        </div>
+        <div id="projects-container" >
+          <!-- Project details will be dynamically added here -->
+        </div>
+      </section>
+      <!--Experience-->
+      <section id="experience" class="experience">
+        <div class="section-header-styling " role="heading" aria-label="heading" >
+          <p class="purple-highlight">Experience</p>
+        </div>
+        <div id="experience-container"  >
+          <!-- Experience details will be dynamically added here -->
+        </div>
+      </section>
+      <!--Education-->
+      <section id="education" class="education-div">
+        <div class="section-header-styling " role="heading" aria-label="heading" >
+          <p class="purple-highlight">Education</p>
+        </div>
+        <div id="education-container" style="display: flex;justify-content: center;" class="education" >
+          <table id="education-table" >
+            
+            <tbody id="education-details">
+              <!-- Education details will be dynamically added here -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <!--Footer-->
+      <footer id="contact">
+        <h2>Contact Me</h2>
+        <div id="contactContainer">
+          <div class="icon-styling">
+            <a href="tel:8639488007" target="_blank" rel="noreferrer">
+              <i class="fa-solid fa-phone fa-xl"></i>
+            </a>
+          </div>
+          <div class="icon-styling">
+            <a href="mailto:vsharshi233@gmail.com" target="_blank" rel="noreferrer">
+              <i class="fa-solid fa-envelope fa-2xl"></i>
+            </a>
+          </div>
+          <div class="icon-styling">
+            <a href="https://www.linkedin.com/in/v-sai-harshitha" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-linkedin fa-2xl"></i>
+            </a>
+          </div>
+          <div class="icon-styling">
+            <a href="https://github.com/harshithareddy123456" target="_blank" rel="noreferrer">
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+        <p>I'm open to new opportunities! Reach out via phone, email, or LinkedIn to discuss job opportunities.</p>
+        <p>Thank you for visiting my portfolio. © 2023 V Sai harshitha</p>
+        <button id="scrollToTopBtn">
+          <i class="fa-solid fa-hand-point-up fa-xl" style="color:#9681eb"></i>
+        </button>
+      </footer>
+
+    </main>
+    <script defer src="index.js"></script>
+  </body>
+</html>
