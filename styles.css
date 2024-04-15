@@ -208,7 +208,7 @@ a {
 }
 
 .intro .profile-logo {
-  min-width: 50%;
+  min-width: 30%;
   height: 50%;
 }
 
@@ -569,6 +569,24 @@ a {
 }
 
 @media (max-width: 650px) {
+  .section-header-styling {
+    font-size: 1.5em;
+  }
+
+  .intro .profile-name .header-styling {
+    font-family: "Playfair Display", serif;
+    font-size: 1.1em;
+  }
+
+  .intro .profile-name .desc-styling {
+    font-family: "Inter", sans-serif;
+    font-size: 1em;
+    width: 200px;
+  }
+
+  #contact h2 {
+    font-size: 1.75em;
+  }
   /** Education **/
   #education-table thead {
     display: none;
@@ -576,6 +594,7 @@ a {
 
   #education-table th {
     display: none;
+
   }
 
   .education-div {

@@ -111,6 +111,24 @@ const projectDetails = [
     technology: "HTML,CSS,Javascript",
     desc: "Develop an interactive interior design application using HTML, CSS, and JavaScript for showcasing projects, providing customization tools, and facilitating user inquiries.",
   },
+  {
+    index: "03",
+    name: "GoFood",
+    logo: "images/gofood.png",
+    websiteLink: "https://merngofood-frontend-1.onrender.com",
+    projectLink: "https://github.com/harshithareddy123456/mngmt_frontend",
+    technology: "React,Redux,Bootstrap,Nodejs,ExpressJS,JWT,MongoDB",
+    desc: "The food delivery app is built with a comprehensive full-stack authentication system using JWT, incorporating middleware and route development in Express for secure user authentication and authorization.Leveraging MongoDB for data persistence, the app handles user registration, login, and order management seamlessly with Razorpay payment integration.",
+  },
+  {
+    index: "04",
+    name: "Tic-Tac-Toe",
+    logo: "images/tictactoe.png",
+    websiteLink: "https://harshitha-tic-tac-toe.netlify.app/",
+    projectLink: "https://github.com/harshithareddy123456/tic-tac-toe",
+    technology: "ReactJS",
+    desc: "Tic tac toe with reactjs",
+  },
 ];
 
 function createProjectElement(project) {
@@ -179,7 +197,7 @@ const experienceDetails = [
   {
     name: "Accenture",
     logo: "images/accenture.jpg",
-    role: "Application Development Senior Analyst",
+    role: "Sr Software Development Engineer",
     year: "Jul 2021 – Current",
     location: "Bengaluru",
     points: [
@@ -230,7 +248,7 @@ experienceDetails.forEach((experience) => {
 
 const educationDetails = [
   {
-    name: "Dayananda Sagar College Engineering",
+    name: "Dayananda Sagar College Of Engineering",
     board: "Bachelor Of Engineering(BE)",
     course: "Electronics and Communication Engineering",
     year: "June 2017 – Jul 2021",
